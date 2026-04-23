@@ -235,3 +235,29 @@ __all__ += [
     "TradeTickLateGameBlowoutConfig",
     "TradeTickLateGameBlowoutStrategy",
 ]
+
+from strategies.legacy_shim import (
+    LegacyShimConfig,
+    LegacySignalShim,
+    MarketSnapshot,
+    QuoteTickLegacyShim,
+    SignalResult,
+)
+
+__all__ += [
+    "LegacyShimConfig",
+    "LegacySignalShim",
+    "MarketSnapshot",
+    "QuoteTickLegacyShim",
+    "SignalResult",
+]
+
+from strategies.basketball_context_demo import (
+    BasketballContextDemo,
+    BasketballContextDemoConfig,
+)
+
+__all__ += [
+    "BasketballContextDemo",
+    "BasketballContextDemoConfig",
+]

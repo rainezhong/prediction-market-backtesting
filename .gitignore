@@ -21,7 +21,7 @@ wheels/
 site/
 
 # Data (contents come from submodule; symlink is tracked)
-data/
+/data/
 
 # Output
 output/
