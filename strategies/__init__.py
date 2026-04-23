@@ -191,3 +191,47 @@ __all__ += [
     "BTCOfi15mConfig",
     "BTCOfi15mStrategy",
 ]
+
+from strategies.btc_ofi_ma import (
+    BTCOfiMaConfig,
+    BTCOfiMaStrategy,
+)
+
+__all__ += [
+    "BTCOfiMaConfig",
+    "BTCOfiMaStrategy",
+]
+
+from strategies.nba_mispricing import (
+    NBAMispricingConfig,
+    NBAMispricingStrategy,
+)
+
+__all__ += [
+    "NBAMispricingConfig",
+    "NBAMispricingStrategy",
+]
+
+from strategies.nba_q4_totals import (
+    NBAQ4TotalsConfig,
+    NBAQ4TotalsStrategy,
+)
+
+__all__ += [
+    "NBAQ4TotalsConfig",
+    "NBAQ4TotalsStrategy",
+]
+
+from strategies.late_game_blowout import (
+    QuoteTickLateGameBlowoutConfig,
+    QuoteTickLateGameBlowoutStrategy,
+    TradeTickLateGameBlowoutConfig,
+    TradeTickLateGameBlowoutStrategy,
+)
+
+__all__ += [
+    "QuoteTickLateGameBlowoutConfig",
+    "QuoteTickLateGameBlowoutStrategy",
+    "TradeTickLateGameBlowoutConfig",
+    "TradeTickLateGameBlowoutStrategy",
+]
