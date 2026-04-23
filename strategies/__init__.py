@@ -151,3 +151,43 @@ __all__ = [
     "TradeTickVWAPReversionConfig",
     "TradeTickVWAPReversionStrategy",
 ]
+
+from strategies.ncaab_fair_value import (
+    NCAABFairValueConfig,
+    NCAABFairValueStrategy,
+)
+
+__all__ += [
+    "NCAABFairValueConfig",
+    "NCAABFairValueStrategy",
+]
+
+from strategies.nba_fair_value import (
+    NBAFairValueConfig,
+    NBAFairValueStrategy,
+)
+
+__all__ += [
+    "NBAFairValueConfig",
+    "NBAFairValueStrategy",
+]
+
+from strategies.ncaab_totals_rating import (
+    NCAABTotalsRatingConfig,
+    NCAABTotalsRatingStrategy,
+)
+
+__all__ += [
+    "NCAABTotalsRatingConfig",
+    "NCAABTotalsRatingStrategy",
+]
+
+from strategies.btc_ofi_15m import (
+    BTCOfi15mConfig,
+    BTCOfi15mStrategy,
+)
+
+__all__ += [
+    "BTCOfi15mConfig",
+    "BTCOfi15mStrategy",
+]
